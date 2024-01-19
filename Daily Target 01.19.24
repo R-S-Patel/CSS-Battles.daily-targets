@@ -1,0 +1,50 @@
+<div class="top"></div>
+<div class="middle"></div>
+<div class="bottom"></div>
+<div class="bubble1"></div>
+<div class="bubble2"></div>
+<style>
+  * {
+    background: #551D70;
+    position: fixed;
+  }
+  .top {
+    width: 100px;
+    height: 20px;
+    background: #E6E7E8;
+    top: 70px;
+    left: 150px;
+    border-radius: 10px;
+  }
+  .middle {
+    background: #7E6BB7;
+    width: 80px;
+    height: 90px;
+    top: 90px;
+    left: 160px;
+  }
+  .bottom {
+    width: 80px;
+    height: 50px;
+    background: #E6E7E8;
+    top: 180px;
+    left: 160px; 
+    border-radius: 0px 0px 40px 40px
+  }
+  .bubble1 {
+    background: #E6E7E8;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    top: 120px;
+    left: 170px;
+  }
+  .bubble2 {
+    background: #E6E7E8;
+     width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 150px;
+    left: 190px;
+  }
+</style>
