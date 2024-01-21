@@ -1,0 +1,39 @@
+<div class="green">
+  <div id="shorts" class="yellow"></div>
+  <div id="long" class="yellow"></div>
+  <div id="footer" class="yellow"></div>
+</div>
+<style>
+  * {
+    background: #223E1F;
+    position: fixed;
+  }
+  .green {
+    width: 250px;
+    left: 75px;
+    height: 150px;
+    top: 75px;
+    background: #0A9947;
+    border-radius: 10px
+  }
+  .yellow {
+    background: #FEFF27;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #shorts {
+    width: 20px;
+    height: 60px;
+    left: 100px;
+    box-shadow: 30px 0px #FEFF27, 60px 0px #FEFF27, 120px 0px #FEFF27, 150px 0px #FEFF27, 180px 0px #FEFF27;
+  }
+  #long {
+    width: 20px;
+    height: 80px;
+    left: 190px;
+  }
+  #footer {
+    width: 250px;
+    height: 30px;
+    top: 195px;
+  }
+</style>
